@@ -1,0 +1,8 @@
+// Fichier : MyThread.java
+public class MyThread extends Thread {
+    @Override
+    public void run() {
+        // Ce code s'exécute dans le thread
+        System.out.println("Mon thread est en cours");
+    }
+}

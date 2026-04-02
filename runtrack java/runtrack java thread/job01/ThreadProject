@@ -1,0 +1,7 @@
+// Fichier : ThreadProject.java
+public class ThreadProject {
+    public static void main(String[] args) {
+        MyThread t = new MyThread();
+        t.start(); // ← IMPORTANT : on appelle start(), pas run() !
+    }
+}
